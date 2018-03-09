@@ -1,3 +1,14 @@
+mlvpn (2.3.2-brew1) unstable; urgency=medium
+
+  [ Frank Denis ]
+  * Fix the Darwin version of tuntap
+
+  [ Laurent Coustet ]
+  * Process name should always be "mlvpn: ${confname}"
+  * BSD: tun device name fix.
+
+ -- Zhong Jianxin <azuwis@gmail.com>  Sat, 10 Mar 2018 04:59:38 +0800
+
 mlvpn (2.3.1+git53+14e17e8-brew1) unstable; urgency=medium
 
   * New upstream snapshot.
